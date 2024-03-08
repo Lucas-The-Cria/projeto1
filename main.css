@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #233142;
+}
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+}
+body, input, textarea {
+    font-family: "Madimi One", sans-serif;
+    font-weight: normal;
+}
+
+.sobre-contato a{
+    font-size: 20px;
+}
+
+header {
+    padding: 16px 0;
+    color: #B2A872;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+header nav li a {
+    color: #B2A872;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container {
+    display: block;
+}
+
+.zed {
+    height: 500px;
+}
+
+section p, h2, h3 {
+    color: #B2A872;
+}
+
+section h2 {
+    font-size: 35px;
+}
+
+.fonte {
+    font-size: 20px;
+}
+
+.texto {
+    color: #F0F8FF;
+}
+section .container {
+    align-items: flex-start;
+}
+
+
+#contato .container {
+    display: block;
+}
+
+.meio-contato {
+    display: flex;
+    justify-content: space-center;
+}
+
+.fale {
+    margin-right: 20px;
+}
+
+form input,
+form textarea,
+form button {
+    display: flex;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 12px;
+    color: #F0FFFF;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #B2A872;
+    color: #F0F8FF;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color:#D2691E;
+}
+
+input:focus, textarea:focus {
+    outline-color:#B2A872 ;
+}
+
+.social img {
+    height: 35px;
+}
+
+.social li, .acompanhe{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 1200px;
+    bottom: 300px;
+    width: 15%;
+}
+
+
+.footer, .direitos {
+    font-size: 19px;
+    color: #B2A872;
+    padding: 16px 0;
+}
